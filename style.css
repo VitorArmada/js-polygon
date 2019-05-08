@@ -1,0 +1,32 @@
+h1, h2 {
+  font-family: Lato;
+}
+body {
+  width: 100%;
+  display: flex;
+}
+
+ul {
+  width:50%;
+  display:flex;
+  list-style-type: none;
+}
+
+li{
+   flex: 1 0;
+   
+}
+
+#col_pair{
+  background: blue;
+}
+
+#col_pair li:nth-child(odd) { background: yellow; }
+
+#col_odd{
+  background: black;
+}
+
+#col_odd li{
+  color: white;
+}
